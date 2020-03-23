@@ -14,7 +14,7 @@ public class Video extends Media{
 	}
 	
 	public boolean checkOut() {
-		System.out.println("Please be patient.");
+		System.out.println("Thank you.");
 		return super.checkOut();
 	}
 
