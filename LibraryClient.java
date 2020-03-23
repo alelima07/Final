@@ -29,7 +29,7 @@ public class LibraryClient {
 		System.out.println();
 		
 		Video firstVideo = new Video(card, 10);
-		firstVideo.setTitle("Pandemic");
+		firstVideo.setTitle("Education");
 		firstVideo.checkOut();
 		System.out.println(firstVideo);
 		System.out.println();
@@ -69,7 +69,7 @@ public class LibraryClient {
 		
 		System.out.println();
 		Video firstVideo = new Video(card, 14);
-		firstVideo.setTitle("Pandemic");
+		firstVideo.setTitle("Education");
 		firstVideo.checkOut();
 		System.out.println(firstVideo);
 		
@@ -93,7 +93,7 @@ public class LibraryClient {
 		firstDVD.checkoutPeriod();
 		
 		DVD firstCD = new DVD(card, 1);
-		firstCD.setTitle("Heartbreaker");
+		firstCD.setTitle("Madonna");
 		firstCD.checkoutPeriod();
 	}
 
