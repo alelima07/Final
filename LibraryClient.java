@@ -17,7 +17,7 @@ public class LibraryClient {
 	public static void checkOut() {
 		int card = 12345;
 		Book firstBook = new Book(card, 1);
-		firstBook.setTitle("Call of the Wild");
+		firstBook.setTitle("Harry Potter");
 		firstBook.checkOut();
 		System.out.println(firstBook);
 		System.out.println();
@@ -39,7 +39,7 @@ public class LibraryClient {
 	public static void checkIn() {
 		int card = 12345;
 		Book firstBook = new Book(card, 1);
-		firstBook.setTitle("Call of the Wild");
+		firstBook.setTitle("Harry Potter");
 		firstBook.checkIn();
 		System.out.println(firstBook);
 		
@@ -54,7 +54,7 @@ public class LibraryClient {
 		Book firstBook = new Book(card, 1);
 		firstBook.checkOut();
 		firstBook.setDaysLate(5);
-		firstBook.setTitle("Call of the Wild");
+		firstBook.setTitle("Harry Potter");
 		System.out.println(firstBook);
 		System.out.println("The book is " + firstBook.getDaysLate() + " days late, and the fine is $" + String.format("%.2f", firstBook.finesAccrued()));
 		
@@ -82,7 +82,7 @@ public class LibraryClient {
 	public static void setDaysAllowed() {
 		int card = 12345;
 		Book firstBook = new Book(card, 1);
-		firstBook.setTitle("Call of the Wild");
+		firstBook.setTitle("Harry Potter");
 		firstBook.setDaysAllowed(14);
 		firstBook.checkoutPeriod();
 		
